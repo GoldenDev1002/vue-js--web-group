@@ -11,3 +11,11 @@
     <div id="app">
         <ul class="apps" v-for="lesson in lessons">
             <li> Topic : {{ lesson.topic }}</li>
+            <li> Location : {{ lesson.location }}</li>
+            <li> Price : {{ lesson.price }}</li>
+        </ul>
+           </div>
+        
+            <script>
+                let app = new Vue({
+                    el: "#app",
