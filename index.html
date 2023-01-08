@@ -24,3 +24,9 @@
                                 lessons: [],
                                 
                             },
+                            created: function(){
+                                fetch("http://localhost:2100/lessons").then((response)=> {
+                                    response.json().then((lessons)=> {
+                                        console.log(lessons);
+                                        this.lessons = lessons
+                                    })
