@@ -6,8 +6,8 @@ github pages :  https://goldendev1002.github.io/vue-js--web-group/
 Backend Server
 Node JS
 Express
-baseURL: http://localhost:2300
-port: 2300
+baseURL: http://localhost:2100
+port: 2100
 
 ----- External Libararies ---------------------------
 
